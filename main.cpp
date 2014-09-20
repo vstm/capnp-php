@@ -25,7 +25,7 @@ extern "C" {
     {
         // static(!) Php::Extension object that should stay in memory
         // for the entire duration of the process (that's why it's static)
-        static Php::Extension extension("capnp-php", "1.0");
+        static Php::Extension extension("capnp-php", "0.1");
         
         // @todo    add your own functions, classes, namespaces to the extension
         Php::Namespace extNamespace("CAPNP");
